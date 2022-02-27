@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Professional Practices Short Course - Candidate Assessment</title>
+
+        <link rel="stylesheet" href="css/styles.css?v=1.0">
+    </head>
+
+    <body>
+        <input type="file" id="uploadFileInput" accept=".csv">
+        <button id='readFile'>Read csv content</button><br><br>
+
+        <label id="inputTableLabel">Students' Marks Table</label>
+        <table id="csvInputTable"></table>
+
+        <button id="showAvg">Display Average</button>
+
+        <label id="outputTableLabel">Students' Average Table</label>
+        <table id="csvOutputTable"></table>
+
+        <button id="saveFile">Save csv file</button>
+
+        <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+        <!-- <script src="scripts.js"></script> -->
+        <script src="./js/script.js"></script>
+    </body>
+</html>
